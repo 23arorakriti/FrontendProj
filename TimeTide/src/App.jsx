@@ -8,7 +8,6 @@ import Settings from './pages/Settings';
 import Navbar from './components/Navbar';
 import { TimeProvider } from './context/TimeContext';
 
-<<<<<<< HEAD
 const App = () => (
   <TimeProvider>
     <Router>
@@ -25,11 +24,5 @@ const App = () => (
     </Router>
   </TimeProvider>
 );
-=======
-  return (
-    <div>Hello I am Sujal</div>
-  )
-}
->>>>>>> 4605e43f582410ee85576d37cbd8ee1c53b45416
 
 export default App;
